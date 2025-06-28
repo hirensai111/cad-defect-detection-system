@@ -1,0 +1,28 @@
+# CAD Defect Detection System V2.0 - Requirements
+# Core Dependencies for Computer Vision & PDF Processing
+
+# Computer Vision & Image Processing
+opencv-python>=4.5.0
+scikit-image>=0.18.0
+numpy>=1.20.0
+matplotlib>=3.3.0
+
+# PDF Processing (V2.0 New Features)
+PyMuPDF>=1.18.0
+Pillow>=8.0.0
+
+# Machine Learning & Feature Extraction
+scikit-learn>=0.24.0
+tensorflow>=2.10.0
+
+# System Utilities
+pathlib2>=2.3.0
+
+# Optional: Development & Testing (uncomment if needed)
+# pytest>=6.0.0
+# jupyter>=1.0.0
+# pandas>=1.3.0
+
+# Note: tensorflow-cpu can be used instead of tensorflow for CPU-only systems
+# Uncomment the line below and comment out tensorflow>=2.10.0 if needed:
+# tensorflow-cpu>=2.10.0
